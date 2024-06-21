@@ -17,4 +17,8 @@ class ConfigController extends Controller
     public function confirmDatabase(){
         return view('install.confirm-database');
     }
+
+    public function configAkun(){
+        return view('install.form-akun');
+    }
 }

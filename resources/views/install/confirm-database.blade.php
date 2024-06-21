@@ -15,7 +15,7 @@
             <p class="">Ini mungkin akan memakan waktu cukup lama, harap tunggu dan jangan tutup halaman ini.</p>
 
             <div class="d-flex justify-content-end p-2">
-                <a href="{{ route('config-database') }}" class=""><button type="button" class="btn btn-primary">Langkah berikutnya -></button></a>
+                <a href="{{ route('config-akun') }}" class=""><button type="button" class="btn btn-primary">Langkah berikutnya -></button></a>
             </div>
         </div>
     </div>
