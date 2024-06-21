@@ -8,18 +8,27 @@
 
         <div class="config p-2">
             <p class="">Dibawah ini Anda harus melakukan pengaturan default pengguna</p>
-            <form action="">
+            <form action="" class="needs-validation" novalidate>
                 <div class="mb-3">
-                    <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Username Pengguna</label>
-                    <input type="text" class="form-control form-control-sm" id="" placeholder="Masukan Username">
+                    <label for="username" class="form-label fw-bold" style="font-size: 0.9rem">Username Pengguna</label>
+                    <input type="text" class="form-control form-control-sm" id="username" placeholder="Masukan Username" required>
+                    <div class="invalid-feedback">
+                        Username tidak boleh kosong.
+                    </div>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Password pengguna</label>
-                    <input type="password" class="form-control form-control-sm" id="password" placeholder="**********">
+                    <label for="password" class="form-label fw-bold" style="font-size: 0.9rem">Password pengguna</label>
+                    <input type="password" class="form-control form-control-sm" id="password" placeholder="**********" required>
+                    <div class="invalid-feedback">
+                        Password tidak boleh kosong.
+                    </div>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Konfirmasi Password pengguna</label>
-                    <input type="password" class="form-control form-control-sm" id="confirmPassword" placeholder="**********">
+                    <label for="confirmPassword" class="form-label fw-bold" style="font-size: 0.9rem">Konfirmasi Password pengguna</label>
+                    <input type="password" class="form-control form-control-sm" id="confirmPassword" placeholder="**********" required>
+                    <div class="invalid-feedback" id="confirmPasswordFeedback">
+                        Password konfirmasi tidak sesuai.
+                    </div>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="checkbox" onclick="hidePassword();">
@@ -27,11 +36,10 @@
                       Lihat Password
                     </label>
                 </div>
+                <div class="d-flex justify-content-end p-2">
+                    <a href="#" class=""><button type="button" class="btn btn-primary">Langkah berikutnya -></button></a>
+                </div>
             </form>
-
-            <div class="d-flex justify-content-end p-2">
-                <a href="{{ route('confirm-database') }}" class=""><button type="button" class="btn btn-primary">Langkah berikutnya -></button></a>
-            </div>
         </div>
     </div>
 </div>
@@ -48,5 +56,34 @@
             y.type = 'password'
         }
     }
+
+    (() => {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+        if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+        } else {
+            // Custom validation for password confirmation
+            var password = document.getElementById('password').value;
+            var confirmPassword = document.getElementById('confirmPassword').value;
+            if (password !== confirmPassword) {
+                event.preventDefault();
+                event.stopPropagation();
+                document.getElementById('confirmPassword').classList.add('is-invalid');
+                document.getElementById('confirmPasswordFeedback').innerText = 'Password konfirmasi tidak sesuai.';
+            }
+        }
+
+        form.classList.add('was-validated')
+        }, false)
+    })
+    })()
 </script>
 @endsection
