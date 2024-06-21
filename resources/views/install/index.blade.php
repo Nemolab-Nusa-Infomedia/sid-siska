@@ -10,7 +10,7 @@
   <body>
 
     <section>
-        <div class="main d-flex align-items-center justify-content-center">
+        <div class="main">
             @yield('content')
         </div>
     </section>

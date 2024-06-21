@@ -1,7 +1,7 @@
 @extends('install.index')
 
 @section('content')
-<div class="container">
+<div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">
     <div class="card">
         <h4 class="mx-auto m-3">Pemasangan Siska</h4>
         <span class="mx-auto" style="border-bottom: 1px solid grey; width: 100%"></span>
