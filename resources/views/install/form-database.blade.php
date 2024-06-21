@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container d-flex align-items-center justify-content-center mt-5 mb-5">
-    <div class="card">
+    <div class="card" style="width: 100%">
         <h4 class="mx-auto m-3">Pemasangan Siska</h4>
         <span class="mx-auto" style="border-bottom: 1px solid grey; width: 100%"></span>
 
@@ -36,7 +36,7 @@
             </form>
 
             <div class="d-flex justify-content-end p-2">
-                <a href="#" class=""><button type="button" class="btn btn-primary">Langkah berikutnya -></button></a>
+                <a href="{{ route('confirm-database') }}" class=""><button type="button" class="btn btn-primary">Langkah berikutnya -></button></a>
             </div>
         </div>
     </div>
