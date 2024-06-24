@@ -3,7 +3,7 @@
 @section('content')
 <div class="container d-flex align-items-center justify-content-center mt-5 mb-5">
     <div class="card" style="width: 100%">
-        <h4 class="mx-auto m-3">Pemasangan Siska</h4>
+        <h4 class="mx-auto m-3">Selamat Datang Sobat Siska</h4>
         <span class="mx-auto" style="border-bottom: 1px solid grey; width: 100%"></span>
 
         <div class="config p-2">
@@ -44,46 +44,5 @@
     </div>
 </div>
 
-<script>
-    function hidePassword(){
-        var x = document.getElementById('password')
-        var y = document.getElementById('confirmPassword')
-        if (x.type == 'password' && y.type == 'password') {
-            x.type = 'text'
-            y.type = 'text'
-        } else {
-            x.type = 'password'
-            y.type = 'password'
-        }
-    }
-
-    (() => {
-    'use strict'
-
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    const forms = document.querySelectorAll('.needs-validation')
-
-    // Loop over them and prevent submission
-    Array.from(forms).forEach(form => {
-        form.addEventListener('submit', event => {
-        if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-        } else {
-            // Custom validation for password confirmation
-            var password = document.getElementById('password').value;
-            var confirmPassword = document.getElementById('confirmPassword').value;
-            if (password !== confirmPassword) {
-                event.preventDefault();
-                event.stopPropagation();
-                document.getElementById('confirmPassword').classList.add('is-invalid');
-                document.getElementById('confirmPasswordFeedback').innerText = 'Password konfirmasi tidak sesuai.';
-            }
-        }
-
-        form.classList.add('was-validated')
-        }, false)
-    })
-    })()
-</script>
+<script src="{{ asset('assets/admin/dist/js/install/main.js') }}"></script>
 @endsection
