@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ConfigController;
+use App\Http\Controllers\AccountController;
 use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\DBSetupController;
 use App\Http\Controllers\PendudukController;
@@ -20,6 +21,8 @@ Route::get('/form-akun', [ConfigController::class, 'configAkun'])->name('config-
 
 Route::post('/install-db', [DBSetupController::class, 'getDB'])->name('install-db');
 Route::get('/install-db-next', [DBSetupController::class, 'migrateDB'])->name('install-db-next');
+
+Route::post('/create-acc', [AccountController::class, 'createAcc'])->name('create-acc');
 
 
 
