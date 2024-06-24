@@ -18,4 +18,4 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-/app/http/DBSetupController
+/app/http/controllers/DBSetupController
