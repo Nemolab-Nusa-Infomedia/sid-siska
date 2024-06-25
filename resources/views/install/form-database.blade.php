@@ -8,36 +8,37 @@
 
         <div class="config p-2">
             <p class="">Dibawah ini Anda harus memasukan rincian koneksi database Anda. Jika Anda tidak yakin dengan ini, hubungi penyedia hosting Anda.</p>
-            <form action="">
+            <form action="{{ route('install-db') }}" method="post">
+                @csrf
                 <div class="mb-3">
                     <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Database Host</label>
-                    <input type="text" class="form-control form-control-sm" id="" placeholder="Masukan Database Host" value="localhost">
+                    <input type="text" name="db_host" class="form-control form-control-sm" id="" placeholder="Masukan Database Host" value="localhost">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Database Port</label>
-                    <input type="text" class="form-control form-control-sm" id="" placeholder="Masukan Database Port" value="3306">
+                    <input type="text" name="db_port" class="form-control form-control-sm" id="" placeholder="Masukan Database Port" value="3306">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Database Name</label>
-                    <input type="text" class="form-control form-control-sm" id="" placeholder="Masukan nama Database Anda">
+                    <input type="text" name="db_name" class="form-control form-control-sm" id="" placeholder="Masukan nama Database Anda">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Database User</label>
-                    <input type="text" class="form-control form-control-sm" id="" placeholder="Masukan Database User" value="root">
+                    <input type="text" name="db_username" class="form-control form-control-sm" id="" placeholder="Masukan Database User" value="root">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Database Password</label>
-                    <input type="text" class="form-control form-control-sm" id="" placeholder="Masukan Password Database Anda">
+                    <input type="text" name="db_password" class="form-control form-control-sm" id="" placeholder="Masukan Password Database Anda">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label fw-bold" style="font-size: 0.9rem">Database Prefix</label>
-                    <input type="text" class="form-control form-control-sm" id="" placeholder="Masukan Prefix Database Anda">
+                    <input type="text" name="db_prefix" class="form-control form-control-sm" id="" placeholder="Masukan Prefix Database Anda">
+                </div>
+                <div class="d-flex justify-content-end p-2">
+                    <button type="submit" class="btn btn-primary">Langkah berikutnya -></button>
                 </div>
             </form>
 
-            <div class="d-flex justify-content-end p-2">
-                <a href="{{ route('confirm-database') }}" class=""><button type="button" class="btn btn-primary">Langkah berikutnya -></button></a>
-            </div>
         </div>
     </div>
 </div>
