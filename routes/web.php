@@ -1,11 +1,11 @@
 <?php
 
+use App\Connection\DBConnector;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ConfigController;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\BerandaController;
-use App\Http\Controllers\DBSetupController;
 use App\Http\Controllers\PendudukController;
 
 
@@ -19,9 +19,8 @@ Route::get('/form-database', [ConfigController::class, 'configDatabase'])->name(
 Route::get('/confirm-database', [ConfigController::class, 'confirmDatabase'])->name('confirm-database');
 Route::get('/form-akun', [ConfigController::class, 'configAkun'])->name('config-akun');
 
-Route::post('/install-db', [DBSetupController::class, 'getDB'])->name('install-db');
-Route::get('/install-db-next', [DBSetupController::class, 'migrateDB'])->name('install-db-next');
-
+Route::post('/install-db', [DBConnector::class, 'getDB'])->name('install-db');
+Route::get('/install-db-next', [DBConnector::class, 'migrateDB'])->name('install-db-next');
 Route::post('/create-acc', [AccountController::class, 'createAcc'])->name('create-acc');
 
 
