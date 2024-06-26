@@ -2,420 +2,334 @@
 
 @section('content')
 
-<div class="col-12">
-    <div class="card mb-4">
-      <div class="card-header pb-0">
-        <h6>Authors table</h6>
-      </div>
-      <div class="card-body px-0 pt-0 pb-2">
-        <div class="table-responsive p-0">
-          <table class="table align-items-center mb-0">
-            <thead>
-              <tr>
-                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Author</th>
-                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Function</th>
-                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
-                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Employed</th>
-                <th class="text-secondary opacity-7"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <div class="d-flex px-2 py-1">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
-                    </div>
-                    <div class="d-flex flex-column justify-content-center">
-                      <h6 class="mb-0 text-sm">John Michael</h6>
-                      <p class="text-xs text-secondary mb-0">john@creative-tim.com</p>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-xs font-weight-bold mb-0">Manager</p>
-                  <p class="text-xs text-secondary mb-0">Organization</p>
-                </td>
-                <td class="align-middle text-center text-sm">
-                  <span class="badge badge-sm bg-gradient-success">Online</span>
-                </td>
-                <td class="align-middle text-center">
-                  <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                </td>
-                <td class="align-middle">
-                  <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                    Edit
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2 py-1">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user2">
-                    </div>
-                    <div class="d-flex flex-column justify-content-center">
-                      <h6 class="mb-0 text-sm">Alexa Liras</h6>
-                      <p class="text-xs text-secondary mb-0">alexa@creative-tim.com</p>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-xs font-weight-bold mb-0">Programator</p>
-                  <p class="text-xs text-secondary mb-0">Developer</p>
-                </td>
-                <td class="align-middle text-center text-sm">
-                  <span class="badge badge-sm bg-gradient-secondary">Offline</span>
-                </td>
-                <td class="align-middle text-center">
-                  <span class="text-secondary text-xs font-weight-bold">11/01/19</span>
-                </td>
-                <td class="align-middle">
-                  <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                    Edit
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2 py-1">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/team-4.jpg" class="avatar avatar-sm me-3" alt="user3">
-                    </div>
-                    <div class="d-flex flex-column justify-content-center">
-                      <h6 class="mb-0 text-sm">Laurent Perrier</h6>
-                      <p class="text-xs text-secondary mb-0">laurent@creative-tim.com</p>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-xs font-weight-bold mb-0">Executive</p>
-                  <p class="text-xs text-secondary mb-0">Projects</p>
-                </td>
-                <td class="align-middle text-center text-sm">
-                  <span class="badge badge-sm bg-gradient-success">Online</span>
-                </td>
-                <td class="align-middle text-center">
-                  <span class="text-secondary text-xs font-weight-bold">19/09/17</span>
-                </td>
-                <td class="align-middle">
-                  <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                    Edit
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2 py-1">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user4">
-                    </div>
-                    <div class="d-flex flex-column justify-content-center">
-                      <h6 class="mb-0 text-sm">Michael Levi</h6>
-                      <p class="text-xs text-secondary mb-0">michael@creative-tim.com</p>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-xs font-weight-bold mb-0">Programator</p>
-                  <p class="text-xs text-secondary mb-0">Developer</p>
-                </td>
-                <td class="align-middle text-center text-sm">
-                  <span class="badge badge-sm bg-gradient-success">Online</span>
-                </td>
-                <td class="align-middle text-center">
-                  <span class="text-secondary text-xs font-weight-bold">24/12/08</span>
-                </td>
-                <td class="align-middle">
-                  <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                    Edit
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2 py-1">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user5">
-                    </div>
-                    <div class="d-flex flex-column justify-content-center">
-                      <h6 class="mb-0 text-sm">Richard Gran</h6>
-                      <p class="text-xs text-secondary mb-0">richard@creative-tim.com</p>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-xs font-weight-bold mb-0">Manager</p>
-                  <p class="text-xs text-secondary mb-0">Executive</p>
-                </td>
-                <td class="align-middle text-center text-sm">
-                  <span class="badge badge-sm bg-gradient-secondary">Offline</span>
-                </td>
-                <td class="align-middle text-center">
-                  <span class="text-secondary text-xs font-weight-bold">04/10/21</span>
-                </td>
-                <td class="align-middle">
-                  <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                    Edit
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2 py-1">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/team-4.jpg" class="avatar avatar-sm me-3" alt="user6">
-                    </div>
-                    <div class="d-flex flex-column justify-content-center">
-                      <h6 class="mb-0 text-sm">Miriam Eric</h6>
-                      <p class="text-xs text-secondary mb-0">miriam@creative-tim.com</p>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-xs font-weight-bold mb-0">Programtor</p>
-                  <p class="text-xs text-secondary mb-0">Developer</p>
-                </td>
-                <td class="align-middle text-center text-sm">
-                  <span class="badge badge-sm bg-gradient-secondary">Offline</span>
-                </td>
-                <td class="align-middle text-center">
-                  <span class="text-secondary text-xs font-weight-bold">14/09/20</span>
-                </td>
-                <td class="align-middle">
-                  <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                    Edit
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <div class="row">
-  <div class="col-12">
-    <div class="card mb-4">
-      <div class="card-header pb-0">
-        <h6>Projects table</h6>
-      </div>
-      <div class="card-body px-0 pt-0 pb-2">
-        <div class="table-responsive p-0">
-          <table class="table align-items-center justify-content-center mb-0">
-            <thead>
-              <tr>
-                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Project</th>
-                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Budget</th>
-                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
-                <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Completion</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <div class="d-flex px-2">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
-                    </div>
-                    <div class="my-auto">
-                      <h6 class="mb-0 text-sm">Spotify</h6>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-sm font-weight-bold mb-0">$2,500</p>
-                </td>
-                <td>
-                  <span class="text-xs font-weight-bold">working</span>
-                </td>
-                <td class="align-middle text-center">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <span class="me-2 text-xs font-weight-bold">60%</span>
-                    <div>
-                      <div class="progress">
-                        <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="align-middle">
-                  <button class="btn btn-link text-secondary mb-0">
-                    <i class="fa fa-ellipsis-v text-xs"></i>
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/small-logos/logo-invision.svg" class="avatar avatar-sm rounded-circle me-2" alt="invision">
-                    </div>
-                    <div class="my-auto">
-                      <h6 class="mb-0 text-sm">Invision</h6>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-sm font-weight-bold mb-0">$5,000</p>
-                </td>
-                <td>
-                  <span class="text-xs font-weight-bold">done</span>
-                </td>
-                <td class="align-middle text-center">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <span class="me-2 text-xs font-weight-bold">100%</span>
-                    <div>
-                      <div class="progress">
-                        <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="align-middle">
-                  <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-ellipsis-v text-xs"></i>
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/small-logos/logo-jira.svg" class="avatar avatar-sm rounded-circle me-2" alt="jira">
-                    </div>
-                    <div class="my-auto">
-                      <h6 class="mb-0 text-sm">Jira</h6>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-sm font-weight-bold mb-0">$3,400</p>
-                </td>
-                <td>
-                  <span class="text-xs font-weight-bold">canceled</span>
-                </td>
-                <td class="align-middle text-center">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <span class="me-2 text-xs font-weight-bold">30%</span>
-                    <div>
-                      <div class="progress">
-                        <div class="progress-bar bg-gradient-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width: 30%;"></div>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="align-middle">
-                  <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-ellipsis-v text-xs"></i>
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/small-logos/logo-slack.svg" class="avatar avatar-sm rounded-circle me-2" alt="slack">
-                    </div>
-                    <div class="my-auto">
-                      <h6 class="mb-0 text-sm">Slack</h6>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-sm font-weight-bold mb-0">$1,000</p>
-                </td>
-                <td>
-                  <span class="text-xs font-weight-bold">canceled</span>
-                </td>
-                <td class="align-middle text-center">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <span class="me-2 text-xs font-weight-bold">0%</span>
-                    <div>
-                      <div class="progress">
-                        <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" style="width: 0%;"></div>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="align-middle">
-                  <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-ellipsis-v text-xs"></i>
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/small-logos/logo-webdev.svg" class="avatar avatar-sm rounded-circle me-2" alt="webdev">
-                    </div>
-                    <div class="my-auto">
-                      <h6 class="mb-0 text-sm">Webdev</h6>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-sm font-weight-bold mb-0">$14,000</p>
-                </td>
-                <td>
-                  <span class="text-xs font-weight-bold">working</span>
-                </td>
-                <td class="align-middle text-center">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <span class="me-2 text-xs font-weight-bold">80%</span>
-                    <div>
-                      <div class="progress">
-                        <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 80%;"></div>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="align-middle">
-                  <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-ellipsis-v text-xs"></i>
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="d-flex px-2">
-                    <div>
-                      <img src="{{ asset('') }}assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm rounded-circle me-2" alt="xd">
-                    </div>
-                    <div class="my-auto">
-                      <h6 class="mb-0 text-sm">Adobe XD</h6>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <p class="text-sm font-weight-bold mb-0">$2,300</p>
-                </td>
-                <td>
-                  <span class="text-xs font-weight-bold">done</span>
-                </td>
-                <td class="align-middle text-center">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <span class="me-2 text-xs font-weight-bold">100%</span>
-                    <div>
-                      <div class="progress">
-                        <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="align-middle">
-                  <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-ellipsis-v text-xs"></i>
-                  </button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
+    <div class="d-flex justify-content-between align-items-center mt-4 mb-4">
+        <h3 class="fw-bold fs-4 text-info">Kependudukan</h3>
+        <a href="{{ route('kependudukan-penduduk-tambah') }}" class="btn btn-plus-data">Tambah Data</a>
     </div>
-  </div>
+    <div class="col-12">
+        <div class="card card-table bg-white p-3">
+            <div class="card-header-table">
+                <div class="d-flex justify-content-between">
+                    <span class="d-flex align-items-center fw-bold text-info">Data Desa Pandak</span>
+                    <div class="d-flex gap-3">
+                        <form action="" class="d-none d-sm-inline-block">
+                            <div class="input-group">
+                                <input type="text" class="form-control form-cari border-2 rounded-3" placeholder="cari disini">
+                            </div>
+                        </form>
+                        <div x-data="{ open: false }" class="filter">
+                            <a href="#" @click="open = ! open" class="btn btn-filter">
+                                Filter <i class="ri-drag-move-line"></i>
+                            </a>
+                            <div x-show="open" class="bg-white position-absolute rounded-3 p-3 border border-3 mt-3 col-md-6" style="right: 1rem; width: 55%;">
+                                <div class="container">
+                                    <div class="d-flex border-bottom border-2 mb-3">
+                                        <span class="fw-bold text-secondary fs-5 mb-2">Filter</span>
+                                    </div>
+                                    <div class="row border-bottom border-2">
+                                        <div class="col-12 col-sm-12 col-md-3 mb-3">
+                                            <span class="fw-bold text-secondary">Status Penduduk</span>
+                                            <div class="d-block mt-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Tetap
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Tidak Tetap
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-3 mb-3">
+                                            <span class="fw-bold text-secondary">Status Keberadaan</span>
+                                            <div class="d-block mt-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Hidup
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Meninggal
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Pindah
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Hilang
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Pergi
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Tidak Diketahui
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-3 mb-3">
+                                            <span class="fw-bold text-secondary">Jenis Kelamin</span>
+                                            <div class="d-block mt-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Laki-laki
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Perempuan
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-3 mb-3">
+                                            <span class="fw-bold text-secondary">Dusun</span>
+                                            <div class="d-block mt-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Grendeng
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Kalicupak
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Sumampir
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      Pandak
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gap-2 mt-3">
+                                        <a href="" class="btn btn-primary">Terapkan Filter</a>
+                                        <a href="" class="btn btn-outline-secondary">Reset Filter</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aksi">
+                            <button class="btn btn-filter" data-bs-toggle="dropdown"><i class="ri-align-justify"></i></button>
+
+                            <div class="dropdown-menu dropdown-menu-end border border-3 rounded mt-3">
+                                <a href="#" class="dropdown-item">
+                                    <i class="ri-printer-fill"></i>
+                                    <span>Cetak</span>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <i class="ri-file-excel-2-fill"></i>
+                                    <span>Import data penduduk Exel</span>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <i class="ri-file-pdf-2-fill"></i>
+                                    <span>Import data penduduk PDF</span>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <i class="ri-file-download-fill"></i>
+                                    <span>Download</span>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <i class="ri-delete-bin-5-fill"></i>
+                                    <span>Hapus</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content table-responsive mt-4">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td class="col text-secondary">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                No
+                            </td>
+                            <td class="col text-secondary">Nama</td>
+                            <td class="col text-secondary">NIK</td>
+                            <td class="col text-secondary">Dusun</td>
+                            <td class="col text-secondary">RT</td>
+                            <td class="col text-secondary">RW</td>
+                            <td class="col text-secondary">Umur</td>
+                            <td class="col text-secondary">Pekerjaan</td>
+                            <td class="col text-secondary">Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                1
+                            </td>
+                            <td class="align-middle">
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="{{ asset('assets/admin/img/vindra.jpeg') }}" class="rounded-circle" width="50px" alt="">
+                                    <span class="">Vindra Arya Yulian</span>
+                                </div>
+                            </td>
+                            <td class="align-middle">3302272507060001</td>
+                            <td class="align-middle">Grendeng</td>
+                            <td class="align-middle">02</td>
+                            <td class="align-middle">01</td>
+                            <td class="align-middle">17</td>
+                            <td class="align-middle">Programmer</td>
+                            <td class="align-middle">Belum Kawin</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                2
+                            </td>
+                            <td class="align-middle">
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="{{ asset('assets/admin/img/vindra.jpeg') }}" class="rounded-circle" width="50px" alt="">
+                                    <span class="">Vindra Arya Yulian</span>
+                                </div>
+                            </td>
+                            <td class="align-middle">3302272507060001</td>
+                            <td class="align-middle">Grendeng</td>
+                            <td class="align-middle">02</td>
+                            <td class="align-middle">01</td>
+                            <td class="align-middle">17</td>
+                            <td class="align-middle">Programmer</td>
+                            <td class="align-middle">Belum Kawin</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                3
+                            </td>
+                            <td class="align-middle">
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="{{ asset('assets/admin/img/vindra.jpeg') }}" class="rounded-circle" width="50px" alt="">
+                                    <span class="">Vindra Arya Yulian</span>
+                                </div>
+                            </td>
+                            <td class="align-middle">3302272507060001</td>
+                            <td class="align-middle">Grendeng</td>
+                            <td class="align-middle">02</td>
+                            <td class="align-middle">01</td>
+                            <td class="align-middle">17</td>
+                            <td class="align-middle">Programmer</td>
+                            <td class="align-middle">Belum Kawin</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                4
+                            </td>
+                            <td class="align-middle">
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="{{ asset('assets/admin/img/vindra.jpeg') }}" class="rounded-circle" width="50px" alt="">
+                                    <span class="">Vindra Arya Yulian</span>
+                                </div>
+                            </td>
+                            <td class="align-middle">3302272507060001</td>
+                            <td class="align-middle">Grendeng</td>
+                            <td class="align-middle">02</td>
+                            <td class="align-middle">01</td>
+                            <td class="align-middle">17</td>
+                            <td class="align-middle">Programmer</td>
+                            <td class="align-middle">Belum Kawin</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                5
+                            </td>
+                            <td class="align-middle">
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="{{ asset('assets/admin/img/vindra.jpeg') }}" class="rounded-circle" width="50px" alt="">
+                                    <span class="">Vindra Arya Yulian</span>
+                                </div>
+                            </td>
+                            <td class="align-middle">3302272507060001</td>
+                            <td class="align-middle">Grendeng</td>
+                            <td class="align-middle">02</td>
+                            <td class="align-middle">01</td>
+                            <td class="align-middle">17</td>
+                            <td class="align-middle">Programmer</td>
+                            <td class="align-middle">Belum Kawin</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                6
+                            </td>
+                            <td class="align-middle">
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="{{ asset('assets/admin/img/vindra.jpeg') }}" class="rounded-circle" width="50px" alt="">
+                                    <span class="">Vindra Arya Yulian</span>
+                                </div>
+                            </td>
+                            <td class="align-middle">3302272507060001</td>
+                            <td class="align-middle">Grendeng</td>
+                            <td class="align-middle">02</td>
+                            <td class="align-middle">01</td>
+                            <td class="align-middle">17</td>
+                            <td class="align-middle">Programmer</td>
+                            <td class="align-middle">Belum Kawin</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center gap-1">
+                        <span>Tampilkan</span>
+                        <div class="">
+                            <select id="inputState" class="form-select">
+                                <option selected>10</option>
+                                <option>20</option>
+                                <option>30</option>
+                            </select>
+                        </div>
+                        <span>data</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href="" class="btn fs-4"><i class="ri-arrow-left-s-fill"></i></a>
+                        <div class="d-flex align-items-center gap-1 border-end border-start p-1">
+                            <span>Halaman</span>
+                            <div class="" style="width: 50px">
+                                <input type="text" class="form-control" placeholder="4" disabled>
+                            </div>
+                            <span>dari 94</span>
+                        </div>
+                        <a href="" class="btn fs-4"><i class="ri-arrow-right-s-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
