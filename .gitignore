@@ -18,5 +18,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-app/Http/Controllers/DBSetupController.php
+# app/Http/Controllers/DBSetupController.php
 
