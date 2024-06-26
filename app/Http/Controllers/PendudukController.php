@@ -14,7 +14,19 @@ class PendudukController extends Controller
         return view('menu.kependudukan.penduduk.tambah');
     }
 
+    public function detailPenduduk(){
+        return view('menu.kependudukan.penduduk.biodata.index');
+    }
+
+    public function cetakDetailPenduduk(){
+        return view('menu.kependudukan.penduduk.biodata.cetakBiodata.index');
+    }
+
     public function ubahPenduduk(){
         return view('menu.kependudukan.penduduk.edit');
+    }
+
+    public function hapusPenduduk(){
+        
     }
 }

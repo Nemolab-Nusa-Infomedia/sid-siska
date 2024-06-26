@@ -185,6 +185,7 @@
                             <td class="col text-secondary">Umur</td>
                             <td class="col text-secondary">Pekerjaan</td>
                             <td class="col text-secondary">Status</td>
+                            <td class="col text-secondary"></td>
                         </tr>
                     </thead>
                     <tbody>
@@ -206,6 +207,9 @@
                             <td class="align-middle">17</td>
                             <td class="align-middle">Programmer</td>
                             <td class="align-middle">Belum Kawin</td>
+                            <td class="align-middle">
+                                <a href="{{ route('kependudukan-penduduk-detail') }}" class="fs-4"><i class="ri-id-card-fill"></i></a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="align-middle">
@@ -225,6 +229,9 @@
                             <td class="align-middle">17</td>
                             <td class="align-middle">Programmer</td>
                             <td class="align-middle">Belum Kawin</td>
+                            <td class="align-middle">
+                                <a href="{{ route('kependudukan-penduduk-detail') }}" class="fs-4"><i class="ri-id-card-fill"></i></a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="align-middle">
@@ -244,6 +251,9 @@
                             <td class="align-middle">17</td>
                             <td class="align-middle">Programmer</td>
                             <td class="align-middle">Belum Kawin</td>
+                            <td class="align-middle">
+                                <a href="{{ route('kependudukan-penduduk-detail') }}" class="fs-4"><i class="ri-id-card-fill"></i></a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="align-middle">
@@ -263,6 +273,9 @@
                             <td class="align-middle">17</td>
                             <td class="align-middle">Programmer</td>
                             <td class="align-middle">Belum Kawin</td>
+                            <td class="align-middle">
+                                <a href="{{ route('kependudukan-penduduk-detail') }}" class="fs-4"><i class="ri-id-card-fill"></i></a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="align-middle">
@@ -282,6 +295,9 @@
                             <td class="align-middle">17</td>
                             <td class="align-middle">Programmer</td>
                             <td class="align-middle">Belum Kawin</td>
+                            <td class="align-middle">
+                                <a href="{{ route('kependudukan-penduduk-detail') }}" class="fs-4"><i class="ri-id-card-fill"></i></a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="align-middle">
@@ -301,6 +317,9 @@
                             <td class="align-middle">17</td>
                             <td class="align-middle">Programmer</td>
                             <td class="align-middle">Belum Kawin</td>
+                            <td class="align-middle">
+                                <a href="{{ route('kependudukan-penduduk-detail') }}" class="fs-4"><i class="ri-id-card-fill"></i></a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

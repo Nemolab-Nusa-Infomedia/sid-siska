@@ -51,6 +51,11 @@ body{
 }
 
 .card-form{
+    border: 2px solid #dddde1;
+    border-radius: 10px;
+}
+
+.card-sub-form{
     border: 2px solid #008BBF;
     border-radius: 10px;
 }
@@ -64,6 +69,11 @@ body{
     background: transparent;
 }
 
+.border-color-card-blue{
+    border-radius: 10px;
+    border: 2px solid #c9e6f1;
+}
+
 /* btn */
 .btn-filter{
     border: 2px solid #036386;
@@ -71,6 +81,14 @@ body{
 
 .btn-plus-data{
     border: 2px solid #036386;
+}
+
+.btn-sis-blue{
+    border: 2px solid #036386;
+}
+
+.btn-hapus{
+    border: 2px solid #db1414;
 }
 
 #sidebar{
