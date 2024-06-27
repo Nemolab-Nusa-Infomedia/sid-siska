@@ -8,12 +8,33 @@
 }
 
 :root{
-    --white-color: hsl(0, 0%, 96%);
+    --color-c1: #01356E;
+    --color-c2: #0075C4;
+    --color-c3: #FFC200;
+    --color-c4: #FFF0C9;
+    --color-c5: #ffffff;
+    --color-c6: #000000;
+    --color-c7: #E6E6E6;
+    --color-c7: #ACACAC;
 }
 
 /* pallet */
+
+.half-image {
+    width: 100%; /* Setengah dari lebar viewport */
+    height: 300px; /* Tinggi penuh viewport */
+    background-image: url('../img/hugostudio.jpeg'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.text-header-content{
+    color: var(--color-c1);
+    font-size: 2rem;
+}
 .text-info{
-    color: #036386 !important;
+    color: var(--color-c1) !important;
 }
 
 a{
@@ -84,7 +105,7 @@ body{
 }
 
 .btn-sis-blue{
-    border: 2px solid #036386;
+    border: 2px solid var(--color-c1);
 }
 
 .btn-hapus{

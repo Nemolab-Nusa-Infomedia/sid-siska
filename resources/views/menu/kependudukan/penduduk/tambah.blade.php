@@ -4,7 +4,7 @@
     <div class="row">
         <div class="d-flex align-items-center gap-3 mt-3 ms-3">
             <a href="{{ route('kependudukan-penduduk') }}" class="btn btn-secondary"><i class="ri-arrow-left-circle-line"></i></a>
-            <h3 class="text-info fw-bold mt-2">Tambah Penduduk</h3>
+            <h3 class="text-header-content fw-bold mt-2">Tambah Penduduk</h3>
         </div>
         <form action="">
             <div class="row col-12 col-md-12 mx-auto">

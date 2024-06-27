@@ -27,7 +27,7 @@
             </a>
             <ul id="infoDesa" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                 <li class="sidebar-item">
-                    <a href="" class="sidebar-link">
+                    <a href="{{ route('infoDesa-identitasDesa') }}" class="sidebar-link">
                         <i class="ri-id-card-line"></i>
                         <span>Identitas Desa</span>
                     </a>
