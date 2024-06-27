@@ -145,64 +145,64 @@
                     <div class="card card-form p-3 bg-white mt-3">
                         <div class="row col-12 col-md-12 mx-auto">
                             <span class="fw-bold fs-5 mb-3">Data Kelahiran</span>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Nomor akta kelahiran</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nomor akta">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Kota Kelahiran</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nama kota">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Tanggal lahir</label>
                                     <input type="date" class="form-control" id="" placeholder="pilih tanggal">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Waktu kelahiran</label>
                                     <input type="text" class="form-control" id="" placeholder="pilih waktu">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
                                 <label for="inputState" class="form-label">Tempat dilahirkan</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih tempat</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <label for="inputState" class="form-label">Jenis kelahiran</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih jenis kelahiran</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Anak ke</label>
                                     <input type="text" class="form-control" id="" placeholder="anak ke">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <label for="inputState" class="form-label">Tenaga kesehatan</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih tenaga kesehatan</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Berat lahir</label>
                                     <input type="text" class="form-control" id="" placeholder="berat lahir">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Panjang lahir</label>
                                     <input type="text" class="form-control" id="" placeholder="panjang lahir">
@@ -215,21 +215,21 @@
                     <div class="card card-form p-3 bg-white mt-3">
                         <div class="row col-12 col-md-12 mx-auto">
                             <span class="fw-bold fs-5 mb-3">Data Pendidikan dan Pekerjaan</span>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <label for="inputState" class="form-label">Pendidikan dalam KK</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih pendidikan (dalam KK)</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <label for="inputState" class="form-label">Pendidikan yang sedang ditempuh</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih pendidikan</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <label for="inputState" class="form-label">Pekerjaan</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih pekerjaan</option>
@@ -243,27 +243,27 @@
                     <div class="card card-form p-3 bg-white mt-3">
                         <div class="row col-12 col-md-12 mx-auto">
                             <span class="fw-bold fs-5 mb-3">Data kewarganegaraan</span>
-                            <div class="col-12 col-md-3">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-3 mb-3">
                                 <label for="inputState" class="form-label">Suku/Etnis</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih Suku/Etnis</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-3 mb-3">
                                 <label for="inputState" class="form-label">Status warga negara</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih status warga negara</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-3">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Nomor paspor</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nomor paspor">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-3">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Tanggal berakhir paspor</label>
                                     <input type="date" class="form-control" id="">
@@ -276,25 +276,25 @@
                     <div class="card card-form p-3 bg-white mt-3">
                         <div class="row col-12 col-md-12 mx-auto">
                             <span class="fw-bold fs-5 mb-3">Data Orang Tua</span>
-                            <div class="col-12 col-md-6">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Nama Ayah</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nama ayah">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">NIK Ayah</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan NIK ayah">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Nama Ibu</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nama ibu">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Masukan NIK Ibu</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan NIK ibu">
@@ -307,32 +307,32 @@
                     <div class="card card-form p-3 bg-white mt-3">
                         <div class="row col-12 col-md-12 mx-auto">
                             <span class="fw-bold fs-5 mb-3">Alamat</span>
-                            <div class="col-12 col-md-4">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <label for="inputState" class="form-label">Dusun</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih dusun</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <div class="mb-3">
                                     <label for="" class="form-label">RT</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan rt">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <div class="mb-3">
                                     <label for="" class="form-label">RW</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan rw">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Nomor Telepon</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nomor telepon">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Email</label>
                                     <input type="email" class="form-control" id="" placeholder="masukan email">
@@ -345,33 +345,33 @@
                     <div class="card card-form p-3 bg-white mt-3">
                         <div class="row col-12 col-md-12 mx-auto">
                             <span class="fw-bold fs-5 mb-3">Status Pernikahan</span>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <label for="inputState" class="form-label">Status nikah</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih status nikah</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <div class="mb-3">
                                     <label for="" class="form-label">No.Akta Nikah (Buku Nikah)</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan no akta nikah">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Tanggal Pernikahan</label>
                                     <input type="date" class="form-control" id="">
                                     <span class="text-secondary">Diisi jika status sudah menikah</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Akta perceraian</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nomor telepon">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Tanggal perceraian</label>
                                     <input type="date" class="form-control" id="">
@@ -385,42 +385,42 @@
                     <div class="card card-form p-3 bg-white mt-3">
                         <div class="row col-12 col-md-12 mx-auto">
                             <span class="fw-bold fs-5 mb-3">Data Kesehatan</span>
-                            <div class="col-12 col-md-4 mb-3">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
                                 <label for="inputState" class="form-label">Golongan darah</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih golongan darah</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4 mb-3">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
                                 <label for="inputState" class="form-label">Cacat</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih jenis cacat</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4 mb-3">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
                                 <label for="inputState" class="form-label">Sakit menahun</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih sakit menahun</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4 mb-3">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
                                 <label for="inputState" class="form-label">Akseptor KB</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih cara KB saat ini</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4 mb-3">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
                                 <label for="inputState" class="form-label">Pilih asuransi</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih jenis asuransi</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Nomor BPJS Ketenagakerjaan</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nomor BPJS ketenagakerjaan">
@@ -433,14 +433,14 @@
                     <div class="card card-form p-3 bg-white mt-3">
                         <div class="row col-12 col-md-12 mx-auto">
                             <span class="fw-bold fs-5 mb-3">Lainnya</span>
-                            <div class="col-12 col-md-6 mb-3">
+                            <div class="col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 mb-3">
                                 <label for="inputState" class="form-label">Golongan darah</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih golongan darah</option>
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Catatan</label>
                                     <textarea class="form-control" id="" rows="3"></textarea>

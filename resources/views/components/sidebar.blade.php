@@ -53,7 +53,7 @@
             </a>
             <ul id="kependudukan" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                 <li class="sidebar-item">
-                    <a href="" class="sidebar-link">
+                    <a href="{{ route('kependudukan-penduduk') }}" class="sidebar-link">
                         <i class="ri-user-3-line"></i>
                         <span>Penduduk</span>
                     </a>
