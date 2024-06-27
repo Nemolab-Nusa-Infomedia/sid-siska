@@ -20,6 +20,6 @@ class AccountController extends Controller
             'email' => $validation['email'],
             'password' => Hash::make($validation['password']),
         ]);
-        return redirect()->route('beranda');
+        return redirect()->route('kependudukan-penduduk');
     }
 }

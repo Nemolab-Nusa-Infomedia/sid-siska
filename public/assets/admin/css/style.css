@@ -155,7 +155,7 @@ body{
 
 a.sidebar-link{
     padding: .625rem 1.625rem;
-    color: #fff;
+    color: #fff ;
     display: block;
     font-size: 0.9rem;
     white-space: nowrap;
@@ -171,7 +171,6 @@ a.sidebar-link{
 a.sidebar-link:hover{
     background-color: #fff;
     color: #008BBF;
-    border-left: 3px solid #036386;
     border-radius: 10px;
 }
 
@@ -183,7 +182,7 @@ a.sidebar-link:hover{
     position: absolute;
     top: 0;
     left: 70px;
-    background-color: white;
+    background-color: #008BBF;
     padding: 0;
     min-width: 15rem;
     display: none;
