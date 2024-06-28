@@ -18,9 +18,9 @@
                                     <span class="">PNG, JEPG, dibawah 2MB</span>
                                 </div>
                             </div>
-                            <div class="upload-file row col-md-12 mx-auto justify-content-center align-items-center bg-primary rounded-3 mx-auto" style="width: 240px; height: 50px;">
-                                <input class="opacity-0 position-absolute cursor-pointer" style="width: 240px; height: 50px; cursor: pointer;" type="file" id="formFileDisabled">
-                                <span class="mx-auto text-white"><i class="ri-file-upload-fill"></i> Unggah Foto</span>
+                            <div class="row col-12 col-md-11 justify-content-center mx-auto mt-2 mb-3 p-2 text-info rounded-2" style="background-color: #0075C4">
+                                <span class="position-absolute text-center align-items-center text-white mt-1">Pilih Foto</span>
+                                <input type="file" name="" style="cursor: pointer; opacity: 0;" id="">
                             </div>
                         </div>
                     </div>
@@ -451,7 +451,7 @@
                     <div class="mt-3 d-flex justify-content-end gap-2">
                         <a href="{{ route('kependudukan-penduduk') }}" class="btn btn-outline-dark">Batal</a>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
-                            Tambah
+                            Simpan
                         </button>
                     </div>
 

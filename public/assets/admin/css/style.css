@@ -22,8 +22,8 @@
 
 .half-image {
     width: 100%; /* Setengah dari lebar viewport */
-    height: 300px; /* Tinggi penuh viewport */
-    background-image: url('../img/hugostudio.jpeg'); /* Ganti dengan path gambar Anda */
+    height: 400px; /* Tinggi penuh viewport */
+    background-image: url('../img/ikn5.png'); /* Ganti dengan path gambar Anda */
     background-size: cover;
     background-position: center;
     border-radius: 10px 10px 0 0;
@@ -117,10 +117,9 @@ body{
     min-width: 70px;
     z-index: 1000;
     transition: all .25s ease-in-out;
-    background-color: #008BBF;
+    background-color: var(--color-c2);
     display: flex;
     flex-direction: column;
-    border-radius: 0 10px 10px 0;
 }
 
 #sidebar.expand{
@@ -236,9 +235,8 @@ a.sidebar-link:hover{
 }
 
 .navbar{
-    background-color: #036386;
+    background-color: var(--color-c1);
     box-shadow: 0 0 2rem rgba(33, 37, 41, .1);
-    border-radius: 10px;
 }
 
 .navbar-expand .navbar-collapse{
@@ -261,29 +259,6 @@ a.sidebar-link:hover{
     color: #fff !important;
     border-radius: 5px;
 }
-
-/* btn-upload-file */
-/* .upload-file{
-    background-color: #008BBF;
-    width: 240px;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.upload-file input{
-    width: 240px;
-    height: 50px;
-    opacity: 0;
-}
-
-.upload-file span{
-    width: 260px;
-    color: var(--white-color);
-} */
 
 
 footer{

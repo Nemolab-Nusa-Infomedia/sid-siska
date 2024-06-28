@@ -149,16 +149,16 @@
                                     <span>Cetak</span>
                                 </a>
                                 <a href="#" class="dropdown-item">
+                                    <i class="ri-export-fill"></i>
+                                    <span>Export data penduduk</span>
+                                </a>
+                                <a href="#" class="dropdown-item">
                                     <i class="ri-file-excel-2-fill"></i>
                                     <span>Import data penduduk Exel</span>
                                 </a>
                                 <a href="#" class="dropdown-item">
                                     <i class="ri-file-pdf-2-fill"></i>
                                     <span>Import data penduduk PDF</span>
-                                </a>
-                                <a href="#" class="dropdown-item">
-                                    <i class="ri-file-download-fill"></i>
-                                    <span>Download</span>
                                 </a>
                                 <a href="#" class="dropdown-item">
                                     <i class="ri-delete-bin-5-fill"></i>
