@@ -393,13 +393,6 @@
                                 </select>
                             </div>
                             <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
-                                <label for="inputState" class="form-label">Cacat</label>
-                                <select id="inputState" class="form-select">
-                                    <option selected>pilih jenis cacat</option>
-                                    <option>...</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
                                 <label for="inputState" class="form-label">Sakit menahun</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih sakit menahun</option>
@@ -414,10 +407,12 @@
                                 </select>
                             </div>
                             <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
-                                <label for="inputState" class="form-label">Pilih asuransi</label>
+                                <label for="inputState" class="form-label">Pilih BPJS</label>
                                 <select id="inputState" class="form-select">
-                                    <option selected>pilih jenis asuransi</option>
-                                    <option>...</option>
+                                    <option selected>pilih jenis BPJS</option>
+                                    <option>PBI</option>
+                                    <option>Non PBI</option>
+                                    <option>BPJS Ketenagakerjaan</option>
                                 </select>
                             </div>
                             <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
@@ -425,6 +420,10 @@
                                     <label for="" class="form-label">Nomor BPJS Ketenagakerjaan</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nomor BPJS ketenagakerjaan">
                                 </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
+                                <label for="inputState" class="form-label">Catatan Riwayat Kesehatan</label>
+                                <textarea class="form-control" id="" rows="3"></textarea>
                             </div>
                         </div>
                     </div>

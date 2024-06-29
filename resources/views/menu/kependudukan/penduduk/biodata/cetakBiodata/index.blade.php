@@ -378,12 +378,6 @@
                         </div>
                         <div class="col-6 col-md-6 col-sm-6 col-lg-3 col-xl-3">
                             <div class="mb-3 row gap-1">
-                                <span class="text-secondary fw-bold">Cacat</span>
-                                <span>Tidak cacat</span>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-sm-6 col-lg-3 col-xl-3">
-                            <div class="mb-3 row gap-1">
                                 <span class="text-secondary fw-bold">Sakit Menahun</span>
                                 <span>Tidak ada/Tidak sakit</span>
                             </div>
@@ -396,14 +390,20 @@
                         </div>
                         <div class="col-6 col-md-6 col-sm-6 col-lg-3 col-xl-3">
                             <div class="mb-3 row gap-1">
-                                <span class="text-secondary fw-bold">Pilih asuransi</span>
+                                <span class="text-secondary fw-bold">Jenis BPJS</span>
                                 <span>Tidak/Belum punya</span>
                             </div>
                         </div>
                         <div class="col-6 col-md-6 col-sm-6 col-lg-3 col-xl-3">
                             <div class="mb-3 row gap-1">
-                                <span class="text-secondary fw-bold">Nomor BPJS Ketenagakerjaan</span>
+                                <span class="text-secondary fw-bold">Nomor BPJS</span>
                                 <span>Tidak/Belum punya</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 col-sm-6 col-lg-3 col-xl-3">
+                            <div class="mb-3 row gap-1">
+                                <span class="text-secondary fw-bold">Cacatan Riwayat Kesehatan</span>
+                                <span>-</span>
                             </div>
                         </div>
                     </div>
