@@ -31,16 +31,17 @@ class DBConnector
         $dbEdit['connections']['mysql']['prefix'] = $db['db_prefix'];
         $newContents = "<?php\n\nreturn " . var_export($dbEdit, true) . ";\n";
         file_put_contents($filePath, $newContents);
-        
-        try {
-            DB::connection()->getPdo();
-            return redirect()->route('confirm-database')->with('success', 'Database setup completed!');
-        } catch (\Exception $e) {
-            return redirect()->route('confirm-database')->with('error', 'Database setup failed!');
-        }
-
+        Artisan::call('config:clear');
+        return redirect()->route('check-db');
     }
-
+        public function checkDB(){
+            try {
+                DB::connection()->getPdo();
+                return redirect()->route('confirm-database')->with('success', 'Database setup completed!');
+            } catch (\Exception $e) {
+                return redirect()->route('confirm-database')->with('error', 'Database setup failed!');
+            }
+        }
     public function migrateDB(){
         try {
             DB::purge('mysql');
