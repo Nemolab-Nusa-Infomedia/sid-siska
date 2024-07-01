@@ -18,9 +18,9 @@
                                     <span class="">PNG, JEPG, dibawah 2MB</span>
                                 </div>
                             </div>
-                            <div class="upload-file row col-md-12 mx-auto justify-content-center align-items-center bg-primary rounded-3 mx-auto" style="width: 240px; height: 50px;">
-                                <input class="opacity-0 position-absolute cursor-pointer" style="width: 240px; height: 50px; cursor: pointer;" type="file" id="formFileDisabled">
-                                <span class="mx-auto text-white"><i class="ri-file-upload-fill"></i> Unggah Foto</span>
+                            <div class="row col-12 col-md-11 justify-content-center mx-auto mt-2 mb-3 p-2 text-info rounded-2" style="background-color: #0075C4">
+                                <span class="position-absolute text-center align-items-center text-white mt-1">Pilih Foto</span>
+                                <input type="file" name="" style="cursor: pointer; opacity: 0;" id="">
                             </div>
                         </div>
                     </div>
@@ -393,13 +393,6 @@
                                 </select>
                             </div>
                             <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
-                                <label for="inputState" class="form-label">Cacat</label>
-                                <select id="inputState" class="form-select">
-                                    <option selected>pilih jenis cacat</option>
-                                    <option>...</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
                                 <label for="inputState" class="form-label">Sakit menahun</label>
                                 <select id="inputState" class="form-select">
                                     <option selected>pilih sakit menahun</option>
@@ -414,10 +407,12 @@
                                 </select>
                             </div>
                             <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
-                                <label for="inputState" class="form-label">Pilih asuransi</label>
+                                <label for="inputState" class="form-label">Pilih BPJS</label>
                                 <select id="inputState" class="form-select">
-                                    <option selected>pilih jenis asuransi</option>
-                                    <option>...</option>
+                                    <option selected>pilih jenis BPJS</option>
+                                    <option>PBI</option>
+                                    <option>Non PBI</option>
+                                    <option>BPJS Ketenagakerjaan</option>
                                 </select>
                             </div>
                             <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4">
@@ -425,6 +420,10 @@
                                     <label for="" class="form-label">Nomor BPJS Ketenagakerjaan</label>
                                     <input type="text" class="form-control" id="" placeholder="masukan nomor BPJS ketenagakerjaan">
                                 </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-4 mb-3">
+                                <label for="inputState" class="form-label">Catatan Riwayat Kesehatan</label>
+                                <textarea class="form-control" id="" rows="3"></textarea>
                             </div>
                         </div>
                     </div>
@@ -451,7 +450,7 @@
                     <div class="mt-3 d-flex justify-content-end gap-2">
                         <a href="{{ route('kependudukan-penduduk-detail') }}" class="btn btn-outline-dark">Batal</a>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
-                            Edit
+                            Simpan
                         </button>
                     </div>
 
